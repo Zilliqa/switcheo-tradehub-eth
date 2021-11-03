@@ -8,7 +8,7 @@ This is the repository contains the tools for generating, deploying, verifying S
 
 ```
 npm install
-``
+```
 
 2. Prepare .env
 
