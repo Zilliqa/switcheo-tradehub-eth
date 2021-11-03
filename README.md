@@ -1,6 +1,6 @@
 # Switcheo ERC20 Token Contract
 
-This is the repository contains the tools for generating, deploying, verifying Switcheo ERC20 token contract.
+This repository contains the tools for generating, deploying, verifying Switcheo ERC20 token contract.
 
 ## Setup
 
