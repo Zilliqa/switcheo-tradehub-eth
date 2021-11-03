@@ -42,7 +42,7 @@ node generate.js
 1. Modify script `scripts/deploy`:
 
 ```
-main("WrappedPORTToken","0x91f453851e297524749a740d53cf54a89231487c")
+main("WrappedPortToken","0x91f453851e297524749a740d53cf54a89231487c")
   .then(() => process.exit(0))
   .catch((error) => {
     console.error(error);
