@@ -68,7 +68,7 @@ module.exports = [
 ];
 ```
 
-Use your own deployed token address.
+Use proper lock proxy address: `0x9a016ce184a22dbf6c17daa59eb7d3140dbd1c54` on mainnet, `0x91f453851e297524749a740d53cf54a89231487c` on ropsten testnet.
 
 
 2. Run script `verify.sh`:
