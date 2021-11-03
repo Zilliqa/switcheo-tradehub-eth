@@ -39,7 +39,7 @@ node generate.js
 
 ### Deploy bridged token
 
-1. Modify script `scripts/deploy`:
+1. Modify script `scripts/deploy.js`:
 
 ```
 main("WrappedPortToken","0x91f453851e297524749a740d53cf54a89231487c")
@@ -60,7 +60,18 @@ npx hardhat run --network <ropsten or mainnet> ./scripts/deploy.js
 
 ### Verify bridged token
 
-1. Run script `verify.sh`:
+1. Modify script `scripts/args.js`
+
+```
+module.exports = [
+    '0x91f453851e297524749a740d53cf54a89231487c',
+];
+```
+
+Use your own deployed token address.
+
+
+2. Run script `verify.sh`:
 
 ```sh
 npx hardhat verify --network <ropsten or mainnet> --constructor-args scripts/args.js <contract_address>
