@@ -29,7 +29,7 @@ PRIVATE_KEY=
 main("WrappedPortToken","Ethereum-bridged PORT Token","ePORT",4)
 ```
 
-Use your own speciific parameters.
+Use your own specific parameters but following the implicit naming convention, i.e., replace PORT by the ZRC-2 token symbol and replace `4` by the ZRC-2 token decimal.
 
 2. Under fold `contracts/tokens`, run
 
