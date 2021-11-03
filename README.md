@@ -4,11 +4,11 @@ This is the repository contains the tools for generating, deploying, verifying S
 
 ## Setup
 
-1. Hardhat Installation
+1. Installation
 
 ```
-npm install --save-dev hardhat
-```
+npm install
+``
 
 2. Prepare .env
 
