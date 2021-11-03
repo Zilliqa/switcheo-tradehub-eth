@@ -1,2 +1,2 @@
 #!/bin/sh
-npx hardhat run --network ropsten ./scripts/deploy.js
+npx hardhat run --network mainnet ./scripts/deploy.js

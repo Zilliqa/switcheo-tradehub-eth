@@ -24,7 +24,7 @@ async function main(token,lockproxy) {
 
 // We recommend this pattern to be able to use async/await everywhere
 // and properly handle errors.
-main("SwitcheoToken","0x91f453851e297524749a740d53cf54a89231487c")
+main("WrappedPortToken","0x9a016ce184a22dbf6c17daa59eb7d3140dbd1c54")
   .then(() => process.exit(0))
   .catch((error) => {
     console.error(error);
